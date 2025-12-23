@@ -9,18 +9,18 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "28427321"))
-API_HASH = getenv("75e035926f72f2f4155a6f5f6e64be03")
+API_ID = int(getenv("API_ID", "33984428"))
+API_HASH = getenv("9ed45ce2cfa2dcf20895d8949a56ecbb")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("7201420162:AAGLrxRRqs3k0dqXvXciedRwQxFD8CRqEpE")
+BOT_TOKEN = getenv("")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_KUZE_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","owner_of_itachi")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","Dark_x_musiczz_bot")
+BOT_USERNAME = getenv("BOT_USERNAME","roshni_x_music_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("Dark_knight")
+BOT_NAME = getenv("roshni music")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME")
+ASSUSERNAME = getenv("roshni_x_assistant")
 # ---------------------------------------------------------
 
 
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID","-1002529294898"))
+LOGGER_ID = int(getenv("LOGGER_ID","-1003228624224"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "7926944005"))
+OWNER_ID = int(getenv("OWNER_ID", "7852340648"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Gxinfinity/SONALI",
+    "https://github.com/itzarjuna1/ANAYA-music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -64,8 +64,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/gxinfinity_support")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/infinitygx_bot_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dark_musictm")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/snowy_hometown")
 # ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------
 
@@ -104,7 +104,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQFYUd4Awi4oQx8mqn94Z1gtZHxnZbfA_5dPXZv23LuWCZXH3rPMUUHAsFl-FH7CH2qVETgbpjiKMZ_KwjsO2cyuene_iUvqlTuDVfjMAv9oTTjA7gh3IUtGcIMngIymazZn55ujq770DiFnnFfuom6x3vxo8v3VkMQDPpE0_bJYb678VIE19lvM_saF0TYXqw5iH81yP2RhVTxJltlG7fWkJyKOBnGgI9jNX4A0T33WNnunZE7lvVqZp_1_luvfP0tw2nx7RsbO-hFb5r7loKn5Id0h9DJVFIbLvfcxhpcIbwPZMleVnUkobUAu9pNTxXHyy1igi_fRuenQfDmHASRWZm01CQAAAAGJKA9qAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -131,21 +131,21 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/eb31c20889c5fca9e153f.jpg, https://telegra.ph/file/62a4a5c93f78df95a7d61.jpg, https://telegra.ph/file/af1b9fb2c83194a37c44d.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/zi9qyb.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/9cevdg.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/uyo2qs.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/i493lf.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/i0qmgf.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/9cevdg.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/j6pqao.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/zi9qyb.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/uyo2qs.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/j6pqao.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/uyo2qs.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/zi9qyb.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/uyo2qs.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/zi9qyb.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/zi9qyb.jpg"
 
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
