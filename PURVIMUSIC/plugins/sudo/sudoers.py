@@ -61,7 +61,7 @@ async def sudoers_list(client, message: Message):
 async def check_sudo_list(client, callback_query: CallbackQuery):
     keyboard = []
     if callback_query.from_user.id not in SUDOERS:
-        return await callback_query.answer("𝐒𝐮𝐝𝐨 𝐋𝐢𝐬𝐭 𝐊 𝐁𝐚𝐝𝐥𝐞 𝐑𝐚𝐮𝐬𝐡𝐚𝐧 𝐊𝐚 𝐋𝐮𝐧𝐝 𝐋𝐞 𝐋𝐞🖕😎😂", show_alert=True)
+        return await callback_query.answer("𝐒𝐮𝐝𝐨 𝐋𝐢𝐬𝐭 q dekhni h 😎😂", show_alert=True)
     else:
         user = await app.get_users(OWNER_ID)
 
